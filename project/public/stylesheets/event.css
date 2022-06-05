@@ -1,0 +1,151 @@
+/*applied to all*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+
+  /*background container with gradient*/
+  .container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #20bf55, #01baef);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  /*profile icon top right corner*/
+  .icon i {
+    font-size: 350%;
+    color: white;
+    cursor: pointer;
+
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+
+  /*event box*/
+  .eventbox {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 25px;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 0 0.5rem 3rem rgba(0,0,0,0.4);
+  }
+
+  /*back button*/
+  .back {
+    font-size: 200%;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    text-shadow: 0 0.3rem 0.3rem rgba(0,0,0,0.3);
+  }
+
+  /*emma - colour changed when using a tag to link so changed colour to origninal*/
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .back:hover {
+    text-decoration: underline;
+  }
+
+  /*create button*/
+  .create {
+    font-size: 200%;
+    font-weight: 600;
+    position:relative;
+    left:1050px;
+    top:490px;
+    width: 80%;
+
+    cursor: pointer;
+    text-shadow: 0 0.3rem 0.3rem rgba(0,0,0,0.3);
+
+  }
+
+  .create:hover {
+    text-decoration: underline;
+  }
+
+  .eventdate {
+    font-size: 150%;
+    position:relative;
+    left:30px;
+    top:20px;
+    width: 80%;
+    cursor: pointer;
+
+
+  }
+  .eventdate:hover {
+    text-decoration: underline;
+  }
+
+  .eventname {
+    font-size: 200%;
+    position:relative;
+
+    left:30px;
+    top:40px;
+    width: 80%;
+
+    cursor: pointer;
+  }
+  .eventname:hover {
+    text-decoration: underline;
+  }
+
+  .eventlocation {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 150%;
+
+    position: relative;
+    left:30px;
+    top:60px;
+    width: 80%;
+
+  }
+
+  .align-content {
+    display: flex;
+  }
+
+  .align-content i {
+    margin-right: 10px;
+  }
+
+  .align-text-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .align-text-item h3 {
+    margin-top: 0px;
+    cursor: pointer;
+  }
+  .align-text-item h3:hover {
+    text-decoration: underline;
+  }
