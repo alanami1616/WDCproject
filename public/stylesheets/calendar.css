@@ -90,7 +90,7 @@ html {
     text-shadow: 0 0.3rem 0.3rem rgba(0,0,0,0.1);
 
     position: absolute;
-    top: 150px;
+    top: 200px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -112,7 +112,7 @@ html {
     /*text-shadow: 0 0.3rem 0.3rem rgba(0,0,0,0.1); */
 
     position: absolute;
-    top: 200px;
+    top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -301,7 +301,7 @@ html {
   }
 
    /* emma - added for menu bar for profile to nag to sign out or go to manage information needs*/
-   
+
 .icon {
   color: white;
   padding: 16px;
@@ -344,3 +344,43 @@ html {
 .profileMenu a:hover {background-color: white;}
 
 .show {display: block;}
+
+
+.google{
+    position: absolute;
+    top: 125px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 70%;
+    height: 10%;
+    background-color: #167e56;
+
+    cursor: pointer;
+
+    border-radius: 25px;
+    padding-top: 25px;
+    padding-left:20px;
+    padding-right:10px;
+    padding-bottom:20px;
+
+    box-shadow: 0 0.5rem 3rem rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+
+.google a{
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.2rem;
+    text-shadow: 0 0.3rem 0.3rem rgba(0,0,0,0.3);
+    text-decoration: none;
+    text-align: center;
+}
+
+/*emma - changed to a tag*/
+.google a:hover {
+    text-decoration: underline;
+}
