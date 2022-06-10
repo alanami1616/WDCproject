@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 
-
 router.post('/login', function(req, res, next) {
 
   if ('email' in req.body && 'password' in req.body) {
@@ -12,7 +11,7 @@ router.post('/login', function(req, res, next) {
         return;
       }
 
-      let query = "SELECT user_id,first_name,last_name,email FROM users WHERE email = ? AND password = ?;";
+      let query = "SELECT * FROM users WHERE email = ? AND password = ?;";
       connection.query(query,[req.body.email,req.body.password],function(error, rows, fields) {
         connection.release(); // release connection
         if (error) {

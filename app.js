@@ -5,13 +5,14 @@ var cookieParser = require('cookie-parser');
 var session = require('express-session');
 var logger = require('morgan');
 var mysql = require('mysql');
+var connection = require('./lib/db.js');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var calendarRouter = require('./routes/calendar');
 
 var app = express();
 
-var dbConnectionPool = mysql.createPool({ host: 'localhost', database: 'calendarDB.sql'});
+var dbConnectionPool = mysql.createPool({ host: 'localhost', database: 'calendarDB'});
 app.use(function(req,res,next){
   req.pool = dbConnectionPool;
   next();
@@ -36,7 +37,7 @@ app.use(session({
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/calendar', calendarRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

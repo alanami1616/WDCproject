@@ -1,10 +1,10 @@
-
 function login(){
     let user = {
         email: document.getElementById('emailCont').value ,
         password: document.getElementById('passCont').value
     };
 
+    console.log(user);
     let xhttp = new XMLHttpRequest();
 
     xhttp.onreadystatechange = function (){
