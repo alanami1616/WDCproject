@@ -75,7 +75,7 @@
     font-weight: 600;
     position:relative;
     left:525px;
-    top:75px;
+    top:40px;
     width: 80%;
 
     cursor: pointer;
@@ -100,7 +100,7 @@
 
   }
 
-  .firstname{
+  .name{
     padding-left: 30px;
     margin-bottom: 20px;
     height: 30px;
@@ -108,7 +108,7 @@
     margin-top: 100px;
   }
 
-  .lastname{
+  .location{
     padding-left: 30px;
     margin-bottom: 20px;
     height: 30px;
@@ -125,7 +125,7 @@
     width: 50%;
 }
 
-.email{
+.time{
   padding-left: 30px;
   margin-bottom: 20px;
   height: 30px;
@@ -152,7 +152,7 @@
   width: 75%;
 }
 
-.yes {
+.yesorno {
   color: white;
   background-color: #006D58;
   box-shadow: 0 0.5rem 3rem rgba(0,0,0,0.1);
@@ -162,34 +162,39 @@
   font-size: 15px;
   cursor:pointer;
 }
-.yes:hover {
+.yesorno:hover {
   text-decoration: underline;
 }
 
-.no {
+.google button {
+  font-size: 200%;
+  position:relative;
+  left:500px;
+  top:0px;
+  width: 80%;
   color: white;
   background-color: #006D58;
   box-shadow: 0 0.5rem 3rem rgba(0,0,0,0.1);
   border-radius: 5px;
   width: 100px;
-  height: 30px;
+  height: 50px;
   font-size: 15px;
   cursor:pointer;
 }
-.no:hover {
+
+.google button:hover {
   text-decoration: underline;
 }
 
 
 
-.password{
+.attend{
   padding-left: 30px;
   margin-bottom: 20px;
   height: 30px;
   width: 100%;
   margin-top: 40px;
 }
-
 
 
 .link{

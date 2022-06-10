@@ -31,13 +31,13 @@
 
     border-radius: 25px;
     width: 45%;
-    height: 475px;
+    height: 400px;
     background-color: white;
     box-shadow: 0 0.5rem 3rem rgba(0,0,0,0.4);
   }
 
   /*manage detail title*/
-  .managedetails {
+  .title {
     font-size: 200%;
     position:relative;
 
@@ -100,7 +100,7 @@
 
   }
 
-  .firstname{
+  .username{
     padding-left: 30px;
     margin-bottom: 20px;
     height: 30px;
@@ -133,7 +133,7 @@
   margin-top: 40px;
 }
 
-.inputemailpassword{
+.inputemail{
   padding-left: 10px;
   margin-bottom: 20px;
   border: 1px solid rgb(182, 178, 178);
@@ -150,6 +150,15 @@
   margin-top: 40px;
 }
 
+.inputpassword{
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(182, 178, 178);
+  border-radius: 3px;
+  height: 30px;
+  width: 75%;
+}
+
 .enter {
   color: white;
   background-color: #006D58;
@@ -164,6 +173,6 @@
   text-decoration: underline;
 }
 
-.currentPassword{
+#currentPassword{
   display: none;
 }

@@ -116,12 +116,11 @@
     font-weight: 600;
     position:relative;
     left:1000px;
-    top:510px;
+    top: 300px;
     width: 80%;
 
     cursor: pointer;
     text-shadow: 0 0.3rem 0.3rem rgba(0,0,0,0.3);
-
   }
 
   .create:hover {
@@ -201,3 +200,19 @@
   .align-text-item h3:hover {
     text-decoration: underline;
   }
+
+
+.enter {
+    color: white;
+    background-color: #006D58;
+    box-shadow: 0 0.5rem 3rem rgba(0,0,0,0.1);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    cursor:pointer;
+}
+.enter:hover {
+    text-decoration: underline;
+}
+

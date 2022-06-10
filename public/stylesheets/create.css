@@ -30,7 +30,7 @@
 
     border-radius: 25px;
     width: 30%;
-    height: 40%;
+    height: 420px;
     background-color: white;
     box-shadow: 0 0.5rem 3rem rgba(0,0,0,0.4);
   }
@@ -88,7 +88,7 @@ h1 {
 }
 
 
-.link{
+.homelink{
     color: rgb(12, 96, 12);
     background-color: white;
     border: none;
@@ -103,9 +103,10 @@ a{
     text-decoration: none;
  }
 
-.link:hover {
+.homelink:hover {
     text-decoration: underline;
 }
+
 
 .admin{
     color: rgb(12, 96, 12);
@@ -115,7 +116,6 @@ a{
     cursor: pointer;
     padding-bottom: 20px;
 }
-
 .admin:hover {
     text-decoration: underline;
 }

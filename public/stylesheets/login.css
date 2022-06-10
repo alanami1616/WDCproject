@@ -30,7 +30,7 @@
 
     border-radius: 25px;
     width: 30%;
-    height: 40%;
+    height: 350px;
     background-color: white;
     box-shadow: 0 0.5rem 3rem rgba(0,0,0,0.4);
   }
@@ -72,7 +72,10 @@ h1 {
 }
 
 /*enter box*/
-
+.containerEmail{
+    justify-content: center;
+    display: flex;
+}
 .input{
     padding-left: 10px;
     margin-bottom: 20px;
@@ -82,7 +85,7 @@ h1 {
     width: 100%;
 }
 
-.inputcontainer{
+.containerPassword{
     justify-content: center;
     display: flex;
 }
@@ -107,6 +110,7 @@ a{
     text-decoration: underline;
 }
 
+
 .admin{
     color: rgb(12, 96, 12);
     background-color: white;
@@ -115,7 +119,6 @@ a{
     cursor: pointer;
     padding-bottom: 20px;
 }
-
 .admin:hover {
     text-decoration: underline;
 }
