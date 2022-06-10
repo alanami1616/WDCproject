@@ -5,8 +5,8 @@
 
         <title>Login</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="stylesheets/main.css">
-        <script type="text/javascript" src="javascripts/login.js"></script>
+        <link rel="stylesheet" href="stylesheets/login.css">
+        <script src="javascripts/login.js"></script>
 
         <script src="https://kit.fontawesome.com/f297f7732a.js" crossorigin="anonymous"></script>
 
@@ -18,27 +18,27 @@
 
     <body>
         <div class="container">
-        <div class="window">
-            <h1>Login</h1>
-            <a class="createAccount" href="/createAccount.html">Create Account &#8594;</a>
-            <div class="containerSignIn">
-            <p>Sign in to your account</p>
-            </div>
+            <div class="window">
+                <h1>Login</h1>
+                <a class="link" href="/createAccount.html">Create Account &#8594;</a>
+                <div class="containerSignIn">
+                    <p>Sign in to your account</p>
+                </div>
 
-            <div class="containerEmail">
-                <input id="emailCont" type ="text" class ="email" placeholder="Email"/>
+                <div class="containerEmail">
+                    <input id="emailCont" type ="text" class="input" placeholder="Email"/>
                 </div>
 
                 <div class="containerPassword">
-                    <input id="passCont" type ="text" class ="password" placeholder="Password"/>
-                    </div>
+                    <input id="passCount" type ="text" class="input" placeholder="Password"/>
+                </div>
 
-            <div class="container2">
-            <button type="button" onclick="login()" class="enter">Enter</button>
+                <div class="button">
+                    <button onclick="login()" class="enter">Enter</button>
+                </div>
+                <a class="admin" href="/adminLogin.html">Admin Login &#8594;</a>
             </div>
-            <a class="admin" href="/adminLogin.html">Admin Login &#8594;</a>
         </div>
-    </div>
     </body>
 
 </html>
